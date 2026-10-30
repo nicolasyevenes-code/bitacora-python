@@ -1,0 +1,18 @@
+[project]
+name = "repo"
+version = "0.1.0"
+description = "Recurso práctico e interactivo para aprender Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "nbstripout>=0.9.1",
+    "ruff>=0.17.3",
+]
