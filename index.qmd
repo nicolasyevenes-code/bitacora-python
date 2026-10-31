@@ -1,0 +1,10 @@
+---
+title: "Bitácora de Python"
+---
+
+Bienvenido. Aquí documento mi aprendizaje de Python de forma práctica e interactiva.
+
+- **Python**: lecciones paso a paso con ejemplos.
+- **Blog**: notas y reflexiones sobre lo que voy aprendiendo.
+
+Más adelante se sumarán módulos de ciencia de datos, machine learning e IA.

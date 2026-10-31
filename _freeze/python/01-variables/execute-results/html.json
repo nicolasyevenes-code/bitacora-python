@@ -1,0 +1,12 @@
+{
+  "hash": "2b7507a84e19ce254e646f114856e3d1",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"01 · Variables\"\njupyter: python3\n---\n\n## Objetivo\n\nEntender qué es una variable y cómo guardar datos en ella.\n\n## Concepto\n\nUna variable es un nombre que apunta a un valor.\n\n::: {#d84589af .cell execution_count=1}\n``` {.python .cell-code}\nnombre = \"Nicolás\"\nedad = 30\nprint(f\"Hola, soy {nombre} y tengo {edad} años\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nHola, soy Nicolás y tengo 30 años\n```\n:::\n:::\n\n\n## Ejercicio\n\nCrea una variable `ciudad` y muestra una frase que la use.\n\n::: {.callout-tip collapse=\"true\"}\n## Solución\n\n::: {#4f611c34 .cell execution_count=2}\n``` {.python .cell-code}\nciudad = \"Santiago\"\nprint(f\"Vivo en {ciudad}\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nVivo en Santiago\n```\n:::\n:::\n\n\n:::\n\n",
+    "supporting": [
+      "01-variables_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: es
+
+execute:
+  freeze: auto
+
+website:
+  title: "Bitácora de Python"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: python/index.qmd
+        text: Python
+      - href: blog/index.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/nicolasyevenes-code/bitacora-python
+  sidebar:
+    - title: "Python"
+      style: docked
+      contents:
+        - python/index.qmd
+        - python/01-variables.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true

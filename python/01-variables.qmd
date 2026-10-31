@@ -1,0 +1,9 @@
+# Introducción
+
+Las variables constituyen uno de los fundamentos
+de la programación.
+
+## ¿Qué son las variables?
+
+Una variable es un nombre asociado a un objeto
+que podemos utilizar dentro de un programa.
